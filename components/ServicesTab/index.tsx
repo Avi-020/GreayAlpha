@@ -1,17 +1,17 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import FeaturesTabItem from "./FeaturesTabItem";
-import featuresTabData from "./featuresTabData";
+import ServicesTabItem from "./ServicesTabItem";
+import ServicesTabData from "./ServicesTabData";
 
 import { motion } from "framer-motion";
 
-const FeaturesTab = () => {
+const ServicesTab = () => {
   const [currentTab, setCurrentTab] = useState("tabOne");
 
   return (
     <>
-      {/* <!-- ===== Features Tab Start ===== --> */}
+      {/* <!-- ===== Services Tab Start ===== --> */}
       <section className="relative pb-20 pt-18.5 lg:pb-22.5">
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
@@ -127,21 +127,21 @@ const FeaturesTab = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto max-w-c-1154"
           >
-            {featuresTabData.map((feature, key) => (
+            {ServicesTabData.map((feature, key) => (
               <div
                 className={feature.id === currentTab ? "block" : "hidden"}
                 key={key}
               >
-                <FeaturesTabItem featureTab={feature} />
+                <ServicesTabItem featureTab={feature} />
               </div>
             ))}
           </motion.div>
           {/* <!-- Tab Content End --> */}
         </div>
       </section>
-      {/* <!-- ===== Features Tab End ===== --> */}
+      {/* <!-- ===== Services Tab End ===== --> */}
     </>
   );
 };
 
-export default FeaturesTab;
+export default ServicesTab;
