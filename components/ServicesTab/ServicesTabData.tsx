@@ -3,28 +3,12 @@ import { FeatureTab } from "@/types/featureTab";
 const ServicesTabData: FeatureTab[] = [
   {
     id: "tabOne",
-    title: "Solid Has Neat & Clean User Interface.",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
+    title: "Empowering the Future: Our Vision and Mission at Greyalpha Tech",
+    desc1: `At Greyalpha Tech, our vision is to lead the future of digital transformation by pioneering innovative AI and Web3 solutions that empower businesses to thrive in a decentralized and intelligent world. Our mission is to deliver cutting-edge technologies that enhance efficiency, foster growth, and unlock new opportunities for businesses globally, while ensuring they stay ahead in an ever-evolving digital landscape.`,
+    desc2: `   `,
     image: "/images/Services/Services-light-01.png",
     imageDark: "/images/Services/Services-dark-01.svg",
-  },
-  {
-    id: "tabTwo",
-    title: "Ready to Use Pages You Need for a SaaS Business.",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/Services/Services-light-01.png",
-    imageDark: "/images/Services/Services-dark-01.svg",
-  },
-  {
-    id: "tabThree",
-    title: "Functional Blog, DB, Auth and Many More",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/Services/Services-light-01.png",
-    imageDark: "/images/Services/Services-dark-01.svg",
-  },
+  }
 ];
 
 export default ServicesTabData;

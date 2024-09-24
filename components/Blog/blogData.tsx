@@ -4,44 +4,44 @@ const BlogData: Blog[] = [
   {
     _id: 1,
     mainImage: "/images/blog/blog-01.png",
-    title: "Free advertising for your online business",
+    title: "How AI is Transforming Business Operations in 2024",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Explore the latest AI trends and their impact on various industries.",
   },
   {
     _id: 2,
     mainImage: "/images/blog/blog-02.png",
-    title: "9 simple ways to improve your design skills",
+    title: "The Future of Web3: Decentralization and Its Benefits for Businesses",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Discuss the advantages of decentralized systems and how businesses can leverage Web3 technologies.",
   },
   {
     _id: 2,
     mainImage: "/images/blog/blog-03.png",
-    title: "Tips to quickly improve your coding speed.",
+    title: "AI-Powered Analytics: Turning Big Data into Actionable Insights",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Highlight how AI-driven analytics help companies make smarter decisions based on data.",
   },
   {
     _id: 1,
     mainImage: "/images/blog/blog-03.png",
-    title: "Free advertising for your online business",
+    title: "Understanding Smart Contracts: Revolutionizing Transactions with Blockchain",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "A deep dive into how smart contracts work and their applications in various sectors.",
   },
   {
     _id: 2,
     mainImage: "/images/blog/blog-04.png",
-    title: "9 simple ways to improve your design skills",
+    title: "DeFi Solutions: Reshaping the Financial Landscape with Decentralized Finance",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      " the rise of DeFi and how it’s changing traditional financial systems.",
   },
   {
     _id: 2,
     mainImage: "/images/blog/blog-01.png",
-    title: "Tips to quickly improve your coding speed.",
+    title: "Custom AI Product Development: From Concept to Reality",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "A guide on the process and benefits of developing custom AI-driven products for businesses."
   },
 ];
 

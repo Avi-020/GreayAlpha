@@ -11,6 +11,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { motion } from "framer-motion";
 import SingleTestimonial from "@/components/Testimonial/SingleTestimonial";
+import ServicesTabItem from "@/components/ServicesTab/ServicesTabItem";
+import ServicesTab from "@/components/ServicesTab";
 
 export default function DocsPage() {
   const data = [
@@ -50,23 +52,9 @@ export default function DocsPage() {
 
   return (
     <>
-      <section className="pb-16 pt-24 md:pb-20 md:pt-28 lg:pb-24 lg:pt-32">
-       <h1 className="pr-16 text-3xl font-bold text-black dark:text-white x:text-hero "> Mission:</h1>
-        <p className="text-3xl font-bold text-black dark:text-white">At Greyalpha Tech, our mission is to empower businesses by
-        delivering cutting-edge AI and Web3 solutions that drive innovation,
-        enhance efficiency, and foster growth. We aim to provide tailored,
-        high-impact technologies that help companies thrive in a rapidly
-        evolving digital world, ensuring their success in the era of
-        decentralization and artificial intelligence.</p>  
-         <h1 className="pr-16 text-3xl font-bold text-black dark:text-white x:text-hero "> Vision:</h1>
-         <p className="text-3xl font-bold text-black dark:text-white">Our vision is to
-        be a global leader in AI and Web3 development, shaping the future of
-        digital transformation. We strive to build a world where businesses are
-        seamlessly connected through intelligent, decentralized systems, paving
-        the way for a smarter, more transparent, and innovative digital
-        ecosystem.</p>
-         
-      </section>
+     
+<br />
+     <ServicesTab/>
 
       <section>
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
